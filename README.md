@@ -1,0 +1,1 @@
+# This is a sample static site where I'll add html, css, and js files

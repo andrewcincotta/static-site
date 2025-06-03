@@ -1,0 +1,31 @@
+# Node (if you're using npm/yarn for tooling like live-server or Vite)
+node_modules/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor-specific
+Thumbs.db
+desktop.ini
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Cache / Temp
+.cache/
+.tmp/
+*.log
+
+# Environment files (if needed)
+.env
+.env.*
