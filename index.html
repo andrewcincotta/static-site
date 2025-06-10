@@ -10,14 +10,75 @@
             font-style: italic;
             font-size: x-large;
         }
+
+        .dropdown {
+            background-color: #f1f1f1;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #dropdown-paragraph {
+            margin-top: 0.5em;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background-color: #006400;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-link:hover {
+            background-color: #006400;
+        }
+
+        #navbar-heading {
+            color: #006400;
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 
 <body>
+    <h1 id="navbar-heading">Navigation Bar</h1>
+    <nav class="navbar">
+        <a href="/form.html" class="nav-link">
+            Form
+        </a> |
+        <a href="/form2.html" class="nav-link">
+            Form2
+        </a> |
+        <a href="/index.html" class="nav-link">
+            Index (Home / Current Site)
+        </a>
+    </nav>
+    <br>
     <h1>Welcome to my first webpage</h1>
     <p>This is my first paragraph of text!</p>
     <br>
     <p id="styled-paragraph">This is a simple paragraph with some styling!</p>
+
+    <details>
+        <summary class="dropdown">
+            Dropdown Test
+        </summary>
+        <p id="dropdown-paragraph">
+            Here is some content that is revealed inside of a dropdown.
+        </p>
+    </details>
 </body>
 
 </html>
